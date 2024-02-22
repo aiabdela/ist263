@@ -1,0 +1,11 @@
+h1{color: blue;}
+p{front-family: verdana, gneva, tahoma, sans-serif;}
+p, h1{front-family: verdana, gneva, tahoma, sans-seri;}
+/* below is a grouo selector -selects more than on element*/
+/* im looking for a tags inside of p tags below*/
+p a{color: red;}
+/* format for an id selector */
+#amazonlink {color: green}
+
+/*format for an class selector */
+.fcolor {color: chocolate}
