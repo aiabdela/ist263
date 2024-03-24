@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigations</title>
+       
+    <style>
+        nav {background-color: #000000;
+            padding: 10px;
+            color: #ffffff;
+            display: flex;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-bottom: 15px;}
+            nav div {padding: 5px;}
+            .flexend {justify-content: flex-end; /*push all columns right/end*/
+           }
+            .spacearound {justify-content: space-around;} /* equal space around colum*/
+            .spacebetween {justify-content: space-between;}
+            .split, .leftside ,.rightside {display: flex;}
+            .split {justify-content: space-between;} /*this seperate the two chid flexboxes */
+     </style>
+</head>
+<body>
+    <nav class="flexend">
+          <div>home</div>
+          <div>about us</div>
+          <div>products</div>
+          <div>contact</div>
+    </nav>
+
+
+    <nav class="spacearound">
+        <div>home</div>
+        <div>about us</div>
+        <div>products</div>
+        <div>contact</div>
+  </nav>
+
+  <nav class="spacebetween">
+    <div>home</div>
+    <div>about us</div>
+    <div>products</div>
+    <div>contact</div>
+
+</nav>
+<nav class="split">
+    <div class="leftside"> 
+    <div>home</div>
+    <div>about us</div>
+    <div>products</div>
+    <div>contact</div>
+   </div> 
+<div class="rightside">
+    <div>facebook</div>
+    <div>instagram</div>
+
+</div>
+</nav>
+</body>
+</html>
