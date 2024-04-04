@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive forms</title>
+    <style>
+        body{background-color: #ef8e6a;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        form {background-color: #ffffff;
+        padding: 40px;
+         width: 70%;
+        margin: 0 auto;}
+        input,textarea {margin-bottom: 15px;
+        width: 100%; /* no attributes can be on from fields for width*/}
+        .submit {background-color: #3d3ddd;
+        border: none;
+    color:#ffffff;
+     padding: 15px;
+    }
+    </style>
+</head>
+<body>
+   <form>
+     <h1>contact form</h1>
+     <label for="name">name</label><br>
+     <input id="name" name="name"><br>
+
+     <label for="email">email</label><br>
+     <input type="text" id="email" name="email"><br>
+
+     <label for="comment">comments</label><br>
+     <textarea id="comment" name="comment"></textarea><br>
+
+     <input type="submit" class="submit" value="send form">
+     </form>
+</body>
+</html>
