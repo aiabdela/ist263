@@ -109,12 +109,17 @@ max-width:100%;
 
 .move{float: right;
     margin-bottom: 15px;
+    
+        display: flex;
+        flex-direction: column;
+    
 
 }
 .twopage, .threepage{margin:5px;
 background-color: #faebd7;
 border-radius: 8px;
-padding:8px;}
+padding:8px;
+color: #0a0344;}
 
 .secondp{max-width: 100%;}
 @media only screen and (max-width: 800px) {body {background-color: #1b1919;}
