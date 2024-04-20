@@ -1,7 +1,7 @@
 nav {
     background-color: #d54ca8;
   }
-nav a {color: #06612b;}  
+nav a {color: #e3ede7;}  
 nav a:hover {background-color: #21aad7;}
 nav{ padding: 10px;}
 nav {margin-bottom: 30px}
@@ -9,10 +9,10 @@ body {
     background-color: #d8b7c9;
   }
   body {
-    color: #344955;
+    color: #333b3e;
   }
   a {
-    color: #fcfcfc;
+    color: #294b1a;
   }
   h1, h2, h3, h4, h5, h6 {
     color: #73087d;
@@ -40,6 +40,7 @@ p {margin: 25px;}
 
 .mypic {max-width: 100%;}
 .row2 {flex-wrap: wrap;}
+nav span {color: #e3ede7;}
 
 
 @media only screen and (max-width: 768px) nav {
