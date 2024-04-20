@@ -1,7 +1,7 @@
 nav {
     background-color: #39134d;
   }
-nav a {color: #ffffff;}  
+nav a {color: #ffffff; font-size: 25px;}  
 nav a:hover {background-color:#007acc ;}
 nav{ padding: 10px;}
 nav {margin-bottom: 30px}
@@ -40,7 +40,7 @@ p {margin: 25px;}
 
 .mypic {max-width: 100%;}
 .row2 {flex-wrap: wrap;}
-nav span {color: #e3ede7;}
+nav span {color: #ffffff;}
 
 .theo{color:#ffffff;}
 @media only screen and (max-width: 768px) nav {
