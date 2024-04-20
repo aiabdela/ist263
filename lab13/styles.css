@@ -1,18 +1,18 @@
 nav {
-    background-color: #d54ca8;
+    background-color: #602080;
   }
-nav a {color: #e3ede7;}  
-nav a:hover {background-color: #21aad7;}
+nav a {color: #ffffff;}  
+nav a:hover {background-color:#007acc ;}
 nav{ padding: 10px;}
 nav {margin-bottom: 30px}
 body {
-    background-color: #d8b7c9;
+    background-color:#f4f4f4;
   }
   body {
-    color: #333b3e;
+    color:#333333;
   }
   a {
-    color: #294b1a;
+    color: #007acc;
   }
   h1, h2, h3, h4, h5, h6 {
     color: #73087d;
@@ -29,7 +29,7 @@ body {
     border-radius: 10px; }
   h2 {font-family: Arial, Helvetica, sans-serif;
   color: #35374B;}
-  p{color: rgb(70, 28, 42);}
+  p{color: #333333;}
   .all {display: flex;}
 
   .skills{ flex: 3; justify-content: space-around;}
