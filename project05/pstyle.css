@@ -126,7 +126,8 @@ flex-direction: column;
 
 
 .secondp{max-width: 100%;}
-@media only screen and (max-width: 800px) {body {background-color: #1b1919;}
+@media only screen and (max-width: 800px) {body {background-color: #1b1919;
+}
 
 header{background-color: #acbcc7;}
 
@@ -152,6 +153,8 @@ header{background-color: #acbcc7;}
     padding: 0 20px; 
     box-sizing: border-box; 
   }
+  h1{color:#e19d9d;}
+  .title3{color:#e19d9d;}
 }
 
 .history{background-color: #8b4a4aae;
