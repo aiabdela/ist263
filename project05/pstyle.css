@@ -166,7 +166,7 @@ margin:15px;
 float: left;
 width:50%;
 padding:20px;}
-.links{background-color: #5ee4ff;}
+.links{background-color: #055565;}
 .sec{display: flex;
 justify-content: space-between;}
  img{margin:10px}
@@ -200,4 +200,7 @@ float:left;
 
 
 
-.title3, h1 , h2 {font-family: "Rowdies" , sans-serif;}
+.title3, h1 , h2 {font-family: "Rowdies" , sans-serif;
+    font-weight: 400;
+  font-style: normal;
+}
