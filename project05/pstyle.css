@@ -181,7 +181,8 @@ margin:20px;
 border-radius: 5%;}
 
 .title3{justify-content: center;
-margin:15px;}
+margin:15px;
+}
 
 .table{background-color: #c8bea6;
 color: #1b1919;
@@ -197,3 +198,6 @@ float:left;
 }
 .win{float:right;}
 
+
+
+.title3, h1 , h2 {font-family: "Rowdies" , sans-serif;}
