@@ -244,4 +244,6 @@ float:left;
     .images {
         justify-content: center; /* Centers the images when they stack below the text */
     }
+
 }
+main{max-width: 100%;}
