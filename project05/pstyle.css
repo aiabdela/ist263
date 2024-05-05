@@ -244,6 +244,8 @@ float:left;
     .images {
         justify-content: center; /* Centers the images when they stack below the text */
     }
+    .skip{color: #ffffff;}
 
 }
 main{max-width: 100%;}
+.skip{color: rgb(0, 0, 0);}
