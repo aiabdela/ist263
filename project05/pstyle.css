@@ -47,7 +47,8 @@ border-radius: 5px;
     border-radius: 5px; margin: 20px;
     padding:15px;
     max-width: 100%;
-    
+    padding: 20px;
+    min-width: 300px;
 }
 .big1{display: flex;
     flex: 1;
@@ -157,6 +158,17 @@ header{background-color: #acbcc7;}
   .title3{color:#e19d9d;} 
 
   .history{clear:both}
+
+  .big1, .homep, .stroke, .two {
+    display: block; 
+    width: 100%; 
+}
+
+.question {
+    margin: 0 auto; 
+    width: auto; 
+    max-width: 100%; 
+}
 }
 
 .history{background-color: #8b4a4aae;
